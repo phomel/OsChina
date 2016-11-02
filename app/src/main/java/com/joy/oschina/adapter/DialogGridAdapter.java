@@ -20,6 +20,7 @@ import java.util.List;
  */
 public class DialogGridAdapter extends CusAdapter<ThemeColor> {
 
+    //sss
     private int checkItem;
 
     public DialogGridAdapter(Context context, List list, int itemLayoutRes) {
