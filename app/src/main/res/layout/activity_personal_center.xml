@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light">
+
+    <include layout="@layout/base_toolbar"/>
+
+    <TextView
+        android:text="@string/txt_base_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="?attr/colorPrimary"
+        android:background="@color/textWhite"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.joy.baselib.widget.CircleImageView
+            android:id="@+id/civ_personal"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <LinearLayout
+            android:id="@+id/lin_personal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/civ_personal"
+            android:layout_toRightOf="@+id/civ_personal"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:paddingTop="5dp"
+                android:text="@string/txt_name"
+                style="@style/PersonalCenterText" />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/member_name"
+                android:textColor="?attr/colorPrimary"
+                style="@style/PersonalCenterText" />
+        </LinearLayout>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:id="@+id/member_introduce"
+            android:layout_alignBottom="@id/civ_personal"
+            android:layout_below="@+id/lin_personal"
+            android:layout_toRightOf="@+id/civ_personal"
+            style="@style/PersonalCenterText" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="@string/txt_other_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="?attr/colorPrimary"
+        android:background="@color/textWhite"/>
+
+    <TextView
+        android:id="@+id/member_email"
+        style="@style/PersonalCenterText" />
+
+    <TextView
+        android:id="@+id/member_wei_bo"
+        style="@style/PersonalCenterText" />
+
+    <TextView
+        android:id="@+id/member_bo_ke"
+        style="@style/PersonalCenterText" />
+
+    <TextView
+        android:id="@+id/member_followers"
+        style="@style/PersonalCenterText" />
+
+    <TextView
+        android:id="@+id/member_following"
+        style="@style/PersonalCenterText" />
+
+    <TextView
+        android:id="@+id/member_watched"
+        style="@style/PersonalCenterText" />
+
+    <TextView
+        android:id="@+id/member_stared"
+        style="@style/PersonalCenterText"
+        android:paddingBottom="15dp"/>
+
+    <View
+        style="@style/Line"/>
+
+    <RelativeLayout
+        android:background="@color/textWhite"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <Button
+        android:onClick="forwardLogin"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_login_bg"
+        android:text="@string/btn_cancel_login"
+        android:textColor="@color/textWhite"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">开源中国</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="dialog_setting_title">设置网络</string>
+    <string name="dialog_setting_content">没有网络,请设置网络</string>
+    <string name="dialog_setting_confirm">确定</string>
+    <string name="dialog_setting_logout">退出</string>
+    <string name="snack_tip">再按一次退出</string>
+    <string name="tab_support_project">推荐项目</string>
+    <string name="tab_hot_project">热门项目</string>
+    <string name="tab_recently_updated">最近更新</string>
+    <string name="menu_item_discover">发现</string>
+    <string name="menu_item_mine">我的</string>
+    <string name="menu_item_language">语言</string>
+    <string name="menu_item_push_one_time">摇一摇</string>
+    <string name="txt_click_to_login">点击登录</string>
+    <string name="txt_translate_theme">切换主题</string>
+    <string name="others">其它</string>
+    <string name="setting">设置</string>
+
+    <string name="sem_watch">\uf06e</string>
+    <string name="sem_star">\uf005</string>
+    <string name="sem_fork">\uf126</string>
+    <string name="sem_tag">\uf02b</string>
+    <string name="fa_clock_o">\uf017</string>
+    <string name="sem_user">\uf007</string>
+    <string name="sem_empty_watch">\uf070</string>
+    <string name="sem_empty_star">\uf006</string>
+    <string name="no_description_hint">暂无项目介绍</string>
+    
+    <string name="txt_dynamic">动态</string>
+    <string name="txt_project">项目</string>
+    <string name="txt_star">Star</string>
+    <string name="txt_watch">Watch</string>
+    <string name="tip_loading">加载数据中,请稍候...</string>
+    <string name="txt_login_title">基于Material Design设计</string>
+    <string name="txt_please_input_user_name">请输入注册用户名</string>
+    <string name="txt_please_input_pwd">请输入密码</string>
+    <string name="btn_login">登录</string>
+    <string name="txt_auto_login">自动登录</string>
+    <string name="txt_login_tip">请使用"开源中国"邮箱和密码登录</string>
+    <string name="txt_login_tip2">注册请前往https://git.oschina.net</string>
+    <string name="dialog_progress_login__tip">登录中,请稍候...</string>
+    <string name="txt_number_of_theme">个主题</string>
+
+    <string name="txt_normal_setting">常规设置</string>
+    <string name="txt_right_hand_operation">右手操作模式</string>
+    <string name="txt_tip_right_hand_operation">开启右手操作模式,侧边栏将从右边划开,默认从左边划开</string>
+    <string name="txt_language_carded">语言卡片式</string>
+    <string name="txt_tip_language_carded">勾选:卡片式,未勾选:列表式</string>
+    <string name="txt_flush_cache">清空缓存</string>
+    <string name="txt_other_setting">其它设置</string>
+    <string name="txt_suggestion_feedback">意见反馈</string>
+    <string name="txt_give_a_nice_evaluate">赏个好评</string>
+    <string name="txt_tip_give_a_nice_evaluate">记得5分好评哦!</string>
+
+    <string name="txt_change_theme">更换主题</string>
+
+    <string name="snack_refresh_tip">更新了%1$d条数据</string>
+    <string name="txt_web_os_china">码云</string>
+    <string name="dialog_flushing_cache">清理缓存中, 请稍候...</string>
+    <string name="tv_zero_kb">0KB</string>
+    <string name="tv_over_more_tip_flush">暂时没有缓存需要清理</string>
+
+    <string name="txt_username_not_be_null">用户名不能为空</string>
+    <string name="txt_pwd_not_be_null">密码不能为空</string>
+    <string name="toast_login_error_tip">用户名或密码错误</string>
+
+    <string name="txt_title_personal_center">个人中心</string>
+    <string name="txt_base_message">基本信息</string>
+    <string name="txt_other_message">其它信息</string>
+    <string name="txt_name">昵称:</string>
+    <string name="txt_personal_introduce">个人介绍:</string>
+    <string name="txt_email">邮箱:</string>
+    <string name="txt_wei_bo">微博:</string>
+    <string name="txt_bo_ke">博客:</string>
+    <string name="txt_followers">followers:</string>
+    <string name="txt_following">following:</string>
+    <string name="txt_watched">watched:</string>
+    <string name="txt_stared">stared:</string>
+    <string name="btn_cancel_login">注销登录</string>
+    <string name="dialog_logout_tip">您确定要注销登录?</string>
+    <string name="dialog_tip_confirm">确定</string>
+    <string name="dialog_tip_nav">取消</string>
+    <string name="txt_none_for_instance">暂无</string>
+
+    <string name="toast_load_defeat">加载失败,请重试</string>
+    <string name="getting_random_project_hint">正在获取项目,请稍候...</string>
+
+    <string name="txt_project_detail_read_me">Readme</string>
+    <string name="txt_project_detail_code">代码</string>
+    <string name="txt_project_detail_commit">提交</string>
+    <string name="txt_project_detail_issue">问题</string>
+    <string name="txt_update_in_time">更新于:&#160;</string>
+    <string name="txt_icon_watch">&#160;watch&#160;</string>
+    <string name="txt_icon_star">&#160;stared&#160;</string>
+    <string name="txt_update_time">更新时间:暂无</string>
+
+    <string name="in_project_title">在项目</string>
+    <string name="update_project_title">更新了项目&#160;</string>
+    <string name="close_project_title">关闭了项目&#160;</string>
+    <string name="reopen_project_title">重新打开了项目&#160;</string>
+    <string name="pull_project_title">推送到了项目&#160;</string>
+    <string name="comment_project_title">评论了项目</string>
+    <string name="accept_project_title">接受了项目&#160;</string>
+    <string name="enter_project_title">加入了项目&#160;</string>
+    <string name="leave_project_title">离开了项目&#160;</string>
+    <string name="fork_project_title">Fork了项目&#160;</string>
+    <string name="update_project_default_title">更新了动态：</string>
+    <string name="branch_title">分支</string>
+    <string name="create_project_title">创建了</string>
+
+    <string name="project_code_readme">Readme</string>
+    <string name="project_code_codes">代码</string>
+    <string name="project_code_commits">提交</string>
+    <string name="project_code_issues">问题</string>
+    <string name="no_point">未指定</string>
+    <string name="no_readme_hint">该项目暂无README.md</string>
+    <string name="update_head_title">更新于：%s</string>
+</resources>

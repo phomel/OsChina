@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--红-->
+    <color name="red">#FF6347</color>
+    <color name="dark_red">#F4511E</color>
+    <color name="accent_red">#FF5722</color>
+
+    <!--棕-->
+    <color name="brown">#795548</color>
+    <color name="dark_brown">#5D4037</color>
+    <color name="accent_brown">#795548</color>
+
+    <!--蓝-->
+    <color name="blue">#3F51B5</color>
+    <color name="dark_blue">#303F9F</color>
+    <color name="accent_blue">#3F51B5</color>
+
+    <!--蓝灰-->
+    <color name="blue_grey">#607D8B</color>
+    <color name="dark_blue_grey">#455A64</color>
+    <color name="accent_blue_grey">#607D8B</color>
+
+    <!--黄-->
+    <color name="yellow">#FF9800</color>
+    <color name="dark_yellow">#F57C00</color>
+    <color name="accent_yellow">#FF9800</color>
+
+    <!--紫-->
+    <color name="deep_purple">#673AB7</color>
+    <color name="dark_deep_purple">#512DA8</color>
+    <color name="accent_deep_purple">#7C4DFF</color>
+
+    <!--粉红-->
+    <color name="pink">#E91E63</color>
+    <color name="dark_pink">#C2185B</color>
+    <color name="accent_pink">#FF5722</color>
+
+    <!--绿-->
+    <color name="green">#4CAF50</color>
+    <color name="dark_green">#388E3C</color>
+    <color name="accent_green">#4CAF50</color>
+
+</resources>

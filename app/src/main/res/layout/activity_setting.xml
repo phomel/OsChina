@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/base_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Login_txt"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/txt_normal_setting" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tv_right_hand"
+                style="@style/SettingTextBlack"
+                android:layout_marginTop="5dp"
+                android:text="@string/txt_right_hand_operation" />
+
+            <TextView
+                style="@style/SettingTextGray"
+                android:layout_below="@+id/tv_right_hand"
+                android:text="@string/txt_tip_right_hand_operation" />
+
+            <Switch
+                android:id="@+id/switch_isDrawerRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+        <View style="@style/Line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tv_language_carded"
+                style="@style/SettingTextBlack"
+                android:layout_marginTop="5dp"
+                android:text="@string/txt_language_carded" />
+
+            <TextView
+                style="@style/SettingTextGray"
+                android:layout_below="@+id/tv_language_carded"
+                android:text="@string/txt_tip_language_carded" />
+
+            <CheckBox
+                android:id="@+id/chk_isCardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:checked="true" />
+
+        </RelativeLayout>
+
+        <View style="@style/Line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:id="@+id/lin_flush_cache_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_setting_bg"
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/SettingTextBlack"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/txt_flush_cache" />
+
+                <TextView
+                    android:id="@+id/tv_flush_cache"
+                    style="@style/SettingTextGray" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_other_setting"
+                style="@style/Login_txt"
+                android:layout_below="@+id/lin_flush_cache_title"
+                android:layout_marginTop="30dp"
+                android:text="@string/txt_other_setting" />
+
+            <TextView
+                style="@style/SettingTextBlack"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tv_other_setting"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_setting_bg"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:onClick="forwardProblemWeb"
+                android:text="@string/txt_suggestion_feedback" />
+
+        </RelativeLayout>
+
+        <View style="@style/Line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_setting_bg"
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_give_a_nice_evaluate"
+                    style="@style/SettingTextBlack"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/txt_give_a_nice_evaluate" />
+
+                <TextView
+                    style="@style/SettingTextGray"
+                    android:layout_below="@+id/tv_give_a_nice_evaluate"
+                    android:text="@string/txt_tip_give_a_nice_evaluate" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View style="@style/Line" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_discover"
+            android:icon="@mipmap/menu_icon_explore"
+            android:checked="true"
+            android:title="@string/menu_item_discover" />
+        <item
+            android:id="@+id/nav_mine"
+            android:icon="@mipmap/menu_icon_my"
+            android:title="@string/menu_item_mine" />
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@mipmap/menu_icon_language"
+            android:title="@string/menu_item_language" />
+        <item
+            android:id="@+id/nav_push_one_time"
+            android:icon="@mipmap/menu_icon_shark"
+            android:title="@string/menu_item_push_one_time" />
+    </group>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/nav_translate_theme"
+                android:title="@string/txt_translate_theme" />
+            <item
+                android:id="@+id/nav_setting"
+                android:title="@string/setting" />
+        </menu>
+    </item>
+
+</menu>

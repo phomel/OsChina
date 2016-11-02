@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="textSelected">#AAFFFFFF</color>
+    <color name="textBlack">#000000</color>
+    <color name="lightTranBlack">#2E000000</color>
+    <color name="lightBlack">#474747</color>
+    <color name="bgBlue">#2196F3</color>
+    <color name="darkBlue">#1976D2</color>
+    <color name="gray">#9A9A9A</color>
+    <color name="light">#FAFAFA</color>
+    <color name="btn_login_bg">#999999</color>
+
+    <color name="themeBlue">#2196F3</color>
+    <color name="themeDarkGray">#795548</color>
+    <color name="themeDarkOrange">#FF6347</color>
+    <color name="themeDarkBlue">#607D8B</color>
+    <color name="themeOrange">#FF9800</color>
+    <color name="themePurple">#673AB7</color>
+    <color name="themeRed">#E91E63</color>
+    <color name="themeGreen">#4CAF50</color>
+
+    <color name="txt_bg_dynamic">#E4E7E5</color>
+
+</resources>
